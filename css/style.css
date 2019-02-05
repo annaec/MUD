@@ -49,6 +49,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
+
 }
 
 @font-face{
@@ -83,6 +84,13 @@ body {
 #messageStartGame {
      font-size: 1.5em;
      margin-bottom: 5%;
+
+}
+
+#welcome {
+    font-size: .65em;
+    line-height:1.5em;
+    margin: 0, 10%;
 }
 
 #map {

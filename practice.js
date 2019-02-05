@@ -137,7 +137,8 @@ function updateInventory() {
 
 function pickUpSword() {
 	if (currentLocation == "s_gate") {
-			newPlayer.inventory.push("Sword");
+			// newPlayer.inventory.push("Sword");
+			newPlayer.inventory.push("Sword")
 			updateInventory();
 			$("<p>You picked up the sword. The weight of it feels powerful, and you are emboldened to explore the world around you. Move NORTH, SOUTH, EAST, or WEST.</p>").insertBefore("#placeholder").fadeIn(1000);
 		} else {
